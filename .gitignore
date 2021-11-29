@@ -10,6 +10,10 @@
 
 # production
 /build
+/image-downloader-win32-x64
+image-downloader-v0.1.0.tgz
+squirrel.exe
+squirrel-unset.log
 
 # misc
 .DS_Store

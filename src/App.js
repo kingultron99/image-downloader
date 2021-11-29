@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/header/header";
+import Images from "./components/images/images"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="w-screen h-screen overflow-x-hidden">
+      <Header/>
+      <Images/>
     </div>
   );
 }
+
+// TODO:
+// - implement web scraping with Axios and Cheerio
+// - have the ability to select what images to save and subsequently save them?
+// - move to the next search query after saving
 
 export default App;
